@@ -251,10 +251,8 @@ input[type=submit] {
   }
 
 
-  /*.auth-image {*/
-    /*float: none;*/
-  /*}*/
-
+  .auth-image {
+    float: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -279,6 +277,12 @@ input[type=submit] {
 
   header {
     position: static;
+  }
+  
+  #main-container {
+    margin-left: 10px;
+    margin-right: 10px;
+
   }
 
   #logo {
